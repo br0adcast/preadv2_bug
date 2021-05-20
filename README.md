@@ -14,6 +14,16 @@ Raspbian GNU/Linux 10 (buster)
 ###### And NOT reproducible with:
 1. Linux raspberrypi 5.4.81-v7l+ #1378 SMP Mon Dec 7 18:43:09 GMT 2020 armv7l GNU/Linux
 
+##### OS
+
+Arch linux 32
+
+###### The bug is reproducible with linux kernels:
+1. Linux 5.10.32-1.0-lts #1 SMP Thu, 22 Apr 2021 07:53:37 +0000 i686 GNU/Linux
+
+###### NOT reproducible with:
+1. Linux 5.11.16-arch1-1.1 #1 SMP PREEMPT Mon, 03 May 2021 16:31:50 +0000 i686 GNU/Linux
+
 ##### How to reproduce
 ```bash
 $ dd if=/dev/urandom of=file_450000 bs=1500 count=300
